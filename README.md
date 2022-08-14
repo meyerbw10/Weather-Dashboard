@@ -17,7 +17,7 @@
 
 ## Project Description 
 
-For my 6th Challenge its time to make a Weather Dashboard! My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
+For my 6th Challenge its time to make a Weather Dashboard! I want to make a text box that will look up the city that I want and display the current weather Index for that City. My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
 
 ---
 
@@ -25,7 +25,7 @@ For my 6th Challenge its time to make a Weather Dashboard! My projects are on di
 
 To view the project, clone the git repository using VS Code. this will allow you to vie the index.html file ass well as the css style file. The website can be view by right clicking in the index.html file and opening via web browser.
 
-Link to deployed website: https://github.com/meyerbw10/Work-Day-Scheduler
+Link to deployed website: https://github.com/meyerbw10/Weather-Dashboard
 
 ---
 
@@ -37,29 +37,26 @@ Link to deployed website: https://github.com/meyerbw10/Work-Day-Scheduler
 
 ## User Story
 
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
 
 ---
 
 #### Acceptance Criteria
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+WHEN I view the UV index
+THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
+
 ---
 
 
@@ -68,6 +65,7 @@ THEN the saved events persist
 
 - adding html, css, js and read me files
 - updating Readme
+- Updating Readme
 
 
 ---
@@ -77,6 +75,8 @@ THEN the saved events persist
 - HTML
 - CSS
 - Javascript
+- Web API's
+- Third Party API's
 
 ---
 
