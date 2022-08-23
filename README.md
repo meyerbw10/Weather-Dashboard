@@ -76,7 +76,7 @@ THEN I am again presented with current and future conditions for that city
 - CSS
 - Javascript
 - Web API's
-- Third Party API's
+- Third Party API'ss
 
 ---
 
