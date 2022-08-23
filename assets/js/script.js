@@ -47,7 +47,7 @@ function callApi(event) {
         }) 
       }
   })
-  pastSearches()
+  // try the buttons method and if it doesnt work than fuck it
 };
 
 
@@ -147,6 +147,7 @@ function pastSearches () {
 
   console.log(test);
   test.forEach(city => {
+    // stop adding buttons if they already exist. 
     var button = document.createElement('button');
     button.textContent = city;
     pastSearchesDiv.append(button)
