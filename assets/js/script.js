@@ -21,8 +21,10 @@ function callApi(event) {
 
   if (inputValue) {
     searchUrl = `${baseUrl}/data/2.5/weather?q=${inputValue}&appid=${apiKey}`
-    savedCities.push(inputValue)
-    localStorage.setItem('city', savedCities);
+    if (!savedCities.includes(inputValue)) {
+      savedCities.push(inputValue)
+      localStorage.setItem('city', savedCities);
+    }
   } else {
     searchUrl = `${baseUrl}/data/2.5/weather?q=${event.target.textContent}&appid=${apiKey}`
   }
@@ -156,4 +158,3 @@ pastSearches()
 submitBtn.addEventListener('click', callApi)
 // callApi()
 
-//clear div method 
