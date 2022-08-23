@@ -16,6 +16,7 @@ if(localStorage.getItem('city')) {
 }
 
 function callApi(event) {
+  pastSearches()
   var inputValue = inputEl.value
   var searchUrl = "";
 
@@ -47,7 +48,6 @@ function callApi(event) {
         }) 
       }
   })
-  // try the buttons method and if it doesnt work than fuck it
 };
 
 
@@ -140,7 +140,7 @@ function displayFiveDay(data) {
 
 
 function pastSearches () {
-  // empty the div in javascript
+  pastSearchesDiv.innerHTML = '';
   if (localStorage.getItem('city')) {
     var cities = localStorage.getItem('city')
     var test = cities.split(',')
