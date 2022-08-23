@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
----
+
 
 ## Table of Contents 
 
@@ -31,7 +31,9 @@ Link to deployed website: https://github.com/meyerbw10/Weather-Dashboard
 
 ### Usage
 
-(pictures)
+![](./assets/images/pic1.png)
+
+![](./assets/images/pic2.png)
 
 ---
 
@@ -66,6 +68,8 @@ THEN I am again presented with current and future conditions for that city
 - adding html, css, js and read me files
 - updating Readme
 - Updating Readme
+- final touches
+- final touches on ReadMe
 
 
 ---
@@ -76,7 +80,7 @@ THEN I am again presented with current and future conditions for that city
 - CSS
 - Javascript
 - Web API's
-- Third Party API'ss
+- Third Party API's
 
 ---
 
